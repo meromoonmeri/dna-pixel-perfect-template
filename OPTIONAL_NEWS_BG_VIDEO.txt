@@ -1,0 +1,4 @@
+Optional news background video omitted to keep repository/workspace size low.
+Original URL:
+https://video.yingxiong.com/fhd/75303483ab8f49d0a944c80e050207cd.mp4
+If desired, download it to videos/news-bg.mp4 and replace the empty NewsPage video src with ./videos/news-bg.mp4.

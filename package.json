@@ -1,0 +1,14 @@
+{
+  "name": "duet-night-abyss-template",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local static template/mirror for the Duet Night Abyss official site front-end.",
+  "scripts": {
+    "start": "python3 -m http.server 8080",
+    "verify": "python3 scripts/verify_assets.py",
+    "bundle": "npx esbuild resource_assets/index-6fff149a.js --bundle --format=iife --platform=browser --target=es2020 --outfile=resource_assets/app.bundle.js --external:_"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.1"
+  }
+}

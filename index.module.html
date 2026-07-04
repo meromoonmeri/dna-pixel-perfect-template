@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="./favicon.ico" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <meta name="nightmode" content="disable" />
+    <title>Duet Night Abyss Official Site</title>
+    <meta name="description" content="Duet Night Abyss GLOBAL LAUNCH. All characters and weapons are free to unlock. Beyond The Limits!" />
+    <meta name="keywords" content="Duet Night Abyss, Dual Narrative, All Platforms, Cross-platform, Action, Action RPG, Adventure, Adventure RPG, Thrilling Combat, Hack and Slash, Shooting, TPS, Demon, Fantasy, Fantasy RPG, High Freedom, Hero Games, Pan Studio, Pan Studio New Game, HERO New Game, Anime, RPG, Parkour, Multiple Weapons" />
+
+    <style>
+      .loading-wrapper {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #000;
+      }
+
+      .loading-content {
+        position: absolute;
+        width: 184px;
+        height: 183px;
+        overflow: hidden;
+        background-image: url("./imgs/bg/bg-loading.webp");
+        background-repeat: no-repeat;
+        animation: loading 1s steps(29) infinite;
+      }
+
+      @keyframes loading {
+        0% {
+          background-position: 0 0;
+        }
+        100% {
+          background-position: 0 -5307px;
+        }
+      }
+    </style>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      window.TencentCaptcha = window.TencentCaptcha || function(){ return { show:function(){}, destroy:function(){} } }
+      // Alias local "story" page requests to the official Atlasia / worldview route.
+      // The captured official bundle names the story/world/factions page `worldview`.
+      if (location.hash === "#/story" || location.hash.startsWith("#/story?")) {
+        location.replace(location.pathname + location.search + "#/worldview")
+      }
+
+      window.__DNA_LOCAL_LIST__ = {"code":0,"msg":"成功","data":{"data":[{"id":"8662","old_id":"0","category_id":"1105","website_id":"76","category_type_id":"post","user_id":"158","user_name":null,"created_at":"1761118620","updated_at":"1783142743","view_count":"8","is_recommend":"0","is_headline":"0","is_top":"0","view":null,"layout":null,"sort":"0","status":"1","seo_title":"","seo_keywords":"","seo_description":"","title":"Silver Torrent, Rising Star – Update Notes","sub_title":"9244","url_alias":null,"redirect_url":null,"summary":"","thumb":"./imgs/news/home-latest.jpg","praise":"0","experience":"0","step":"0","share":"0","online_at":"1761118620","video":null,"contentMessage":"","body":"","body_ggtd":"","extend":"","created_at_formate":"2025-10-22","link_url":"/zdzxyy/2025/1022/8662.html","wap_link_url":"/m/zdzxyy/2025/1022/8662.html","linkUrl":"/zdzxyy/2025/1022/8662.html","wapLinkUrl":"/m/zdzxyy/2025/1022/8662.html","name":"重点资讯(英语)","category_thumb":"","is_new":1}],"totalPage":1}};
+      window.__DNA_LOCAL_DETAIL__ = {"code":0,"msg":"成功","data":{"id":8662,"old_id":0,"category_id":1105,"website_id":76,"category_type_id":"post","user_id":158,"user_name":null,"created_at":1761118620,"updated_at":1783142743,"view_count":8,"is_recommend":0,"is_headline":0,"is_top":0,"view":null,"layout":null,"sort":0,"status":1,"seo_title":"","seo_keywords":"","seo_description":"","title":"Silver Torrent, Rising Star – Update Notes","sub_title":"9244","url_alias":null,"redirect_url":null,"summary":"","thumb":"./imgs/news/home-latest.jpg","praise":0,"experience":0,"step":0,"share":0,"online_at":1761118620,"body":"","extend":[]}};
+      window.__DNA_MOCK_LIST__ = function (params) {
+        var base = JSON.parse(JSON.stringify(window.__DNA_LOCAL_LIST__));
+        var size = Number(params && params.pageSize) || base.data.data.length;
+        base.data.totalPage = 1;
+        base.data.data = base.data.data.slice(0, size);
+        return base;
+      };
+      window.__DNA_MOCK_DETAIL__ = function () {
+        return JSON.parse(JSON.stringify(window.__DNA_LOCAL_DETAIL__));
+      };
+
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag("js", new Date())
+      gtag("config", "LOCAL_TEMPLATE")
+      window.gtagByClick = function (name, language) {
+        gtag("event", name, {
+          event_category: "button_click",
+          ...(language ? { language } : {}),
+        })
+      }
+    </script>
+    <script src="./js/browser.js"></script>
+    
+    
+    <script type="module" crossorigin src="./resource_assets/index-6fff149a.js"></script>
+    <link rel="stylesheet" href="./resource_assets/index-96ffffcd.css">
+    <script type="module">import.meta.url;import("_").catch(()=>1);async function* g(){};if(location.protocol!="file:"){window.__vite_is_modern_browser=true}</script>
+  </head>
+  <body>
+    <div id="app">
+      <div class="loading-wrapper">
+        <div class="loading-content"></div>
+      </div>
+    </div>
+  </body>
+</html>

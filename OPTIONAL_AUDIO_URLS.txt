@@ -1,0 +1,8 @@
+Optional music files removed from the workspace copy to keep the template lightweight. Run `python3 download_optional_audio.py` from this folder to restore them locally:
+https://cdnstatic.herogame.com/static/duetnightabyss_gw_1_4/resource_assets/theme1-f0af692d.mp3
+https://cdnstatic.herogame.com/static/duetnightabyss_gw_1_4/resource_assets/BinaryFate-73f0c310.mp3
+https://cdnstatic.herogame.com/static/duetnightabyss_gw_1_4/resource_assets/theme0-5bdc16d3.mp3
+https://cdnstatic.herogame.com/static/duetnightabyss_gw_1_4/resource_assets/theme2-51179355.mp3
+https://cdnstatic.herogame.com/static/duetnightabyss_gw_1_4/resource_assets/theme3-22a27a7c.mp3
+https://cdnstatic.herogame.com/static/duetnightabyss_gw_1_4/resource_assets/theme4-e6c9ae53.mp3
+https://cdnstatic.herogame.com/static/duetnightabyss_gw_1_4/resource_assets/theme5-c33ecb9e.mp3
